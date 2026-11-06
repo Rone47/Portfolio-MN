@@ -1,0 +1,29 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# --- Python / server ---
+server/__pycache__/
+server/**/__pycache__/
+server/*.pyc
+server/.venv/
+server/venv/
+server/.pytest_cache/
+server/.mypy_cache/
+
+# --- Node / client ---
+client/node_modules/
+client/.next/
+client/out/
+client/build/
+client/.turbo/
+client/next-env.d.ts
+client/.vercel
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json

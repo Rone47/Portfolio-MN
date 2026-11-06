@@ -1,0 +1,4 @@
+Upload your PDF to this folder as:
+Byrone-Aketch-CV.pdf
+
+The portfolio will display a download link once the file is present.
